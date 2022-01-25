@@ -136,7 +136,7 @@ h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  padding: 30px 0 0 0;
+  padding: 20px 0 0 0;
 }
 .nav-menu * {
   margin: 0;
@@ -152,10 +152,10 @@ h6 {
   display: flex;
   align-items: center;
   color: #a8a9b4;
-  padding: 12px 15px;
-  margin-bottom: 8px;
+  padding: 10px 15px;
+  /* margin-bottom: 8px; */
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 14px;
 }
 .nav-menu a i,
 .nav-menu a:focus i {
@@ -266,6 +266,26 @@ h6 {
   }
 }
 
+strong {
+  color: rgb(85, 85, 85);
+}
+/* section:not(#about) ul li::before {
+  content: "\2022";
+  color: rgb(85, 85, 85);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+} */
+
+@media (min-width: 768px) {
+  section {
+    min-height: 100vh;
+  }
+  .references li {
+    margin-bottom: 15px;
+  }
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
