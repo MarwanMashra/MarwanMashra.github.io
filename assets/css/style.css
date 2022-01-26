@@ -8,6 +8,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root {
+  --color-gray: rgb(85, 85, 85);
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -266,26 +269,31 @@ h6 {
   }
 }
 
-strong {
-  color: rgb(85, 85, 85);
+strong,
+h4 {
+  color: var(--color-gray);
 }
-/* section:not(#about) ul li::before {
+ul[type="1"] > li::before {
   content: "\2022";
-  color: rgb(85, 85, 85);
+  color: var(--color-gray);
   font-weight: bold;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
-} */
+}
 
 @media (min-width: 768px) {
   section {
     min-height: 100vh;
   }
   .references li {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+  }
+  .skills-list li {
+    margin-bottom: 10px;
   }
 }
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -447,15 +455,17 @@ section {
   border-left: 2px solid #1f5297;
   position: relative;
 }
-.resume .resume-item h4 {
+.resume .resume-item h4,
+h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: var(--color-gray);
   margin-bottom: 10px;
 }
+
 .resume .resume-item h5 {
   font-size: 16px;
   background: #e4edf9;
