@@ -273,13 +273,22 @@ strong,
 h4 {
   color: var(--color-gray);
 }
-ul[type="1"] > li::before {
+/* ul[type="1"] > li::before {
   content: "\2022";
   color: var(--color-gray);
   font-weight: bold;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+} */
+
+ul[type="1"] > li::marker {
+  /* content: "\2022"; */
+  color: var(--color-gray);
+  /* font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; */
 }
 
 @media (min-width: 768px) {
