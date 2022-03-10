@@ -303,6 +303,63 @@ ul[type="1"] > li::marker {
   }
 }
 
+@media (max-width: 767px) {
+  @media (min-height: 850px) {
+    .nav-menu a,
+    .nav-menu a:focus {
+      padding: 14px 15px;
+    }
+  }
+  @media (min-height: 810px) and (max-height: 850px) {
+    .nav-menu a,
+    .nav-menu a:focus {
+      padding: 13px 15px;
+    }
+  }
+  @media (min-height: 780px) and (max-height: 810px) {
+    .nav-menu a,
+    .nav-menu a:focus {
+      padding: 12px 15px;
+    }
+  }
+  @media (min-height: 750px) and (max-height: 780px) {
+    .nav-menu a,
+    .nav-menu a:focus {
+      padding: 10px 15px;
+    }
+  }
+  @media (min-height: 730px) and (max-height: 750px) {
+    .nav-menu a,
+    .nav-menu a:focus {
+      padding: 9px 15px;
+    }
+  }
+  @media (min-height: 710px) and (max-height: 730px) {
+    .nav-menu a,
+    .nav-menu a:focus {
+      padding: 8px 15px;
+    }
+  }
+  @media (min-height: 690px) and (max-height: 710px) {
+    .nav-menu a,
+    .nav-menu a:focus {
+      padding: 7px 15px;
+    }
+  }
+  @media (min-height: 670px) and (max-height: 690px) {
+    .nav-menu a,
+    .nav-menu a:focus {
+      padding: 6px 15px;
+    }
+  }
+  @media (min-height: 650px) and (max-height: 670px) {
+    .nav-menu a,
+    .nav-menu a:focus {
+      padding: 5px 15px;
+    }
+  }
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
