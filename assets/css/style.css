@@ -155,7 +155,7 @@ h6 {
   display: flex;
   align-items: center;
   color: #a8a9b4;
-  padding: 10px 15px;
+  padding: 8px 15px;
   /* margin-bottom: 8px; */
   transition: 0.3s;
   font-size: 14px;
@@ -470,6 +470,15 @@ h4 {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: var(--color-gray);
+  margin-bottom: 10px;
+}
+
+.h4-lower {
+  line-height: 24px;
+  font-size: 24px;
+  font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: var(--color-gray);
   margin-bottom: 10px;
